@@ -8,6 +8,8 @@ import Library from "./chapter_03/Library";
 import Clock from "./chapter_04/Clock";
 import CommentList from "./chapter_05/CommentList";
 import NotificationList from "./chapter_06/NotificationList";
+import DarkOrLight from "./chapter_14/DarkOrLight";
+import MainPage from "./chapter_15/MainPage";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -28,9 +30,23 @@ const root = createRoot(document.getElementById("root"));
 // )
 
 // Chapter 6
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList/>
+//   </React.StrictMode>
+// )
+
+// Chapter 14
+// root.render(
+//   <React.StrictMode>
+//     <DarkOrLight/>
+//   </React.StrictMode>
+// )
+
+// Chapter 15
 root.render(
   <React.StrictMode>
-    <NotificationList/>
+    <MainPage/>
   </React.StrictMode>
 )
 
