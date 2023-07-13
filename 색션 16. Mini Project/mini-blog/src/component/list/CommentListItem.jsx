@@ -22,7 +22,7 @@ const ContentText = styled.p`
 `;
 
 function CommentListItem(props) {
-  const { comment } = props;
+  const { comment, onClick } = props;
 
   return (
     <Wrapper onClick={onClick}>

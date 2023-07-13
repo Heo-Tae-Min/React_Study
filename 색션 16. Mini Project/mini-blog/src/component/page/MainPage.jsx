@@ -14,15 +14,15 @@ const Wrapper = styled.div`
   justify-content: center;
 `;
 
-const Container = stylecd.div`
-    width: 100%;
-    max-width: 720px;
+const Container = styled.div`
+  width: 100%;
+  max-width: 720px;
 
-    & > * {
-        :not(:last-child) {
-          margin-bottom: 16px;
-        }
+  & > * {
+    :not(:last-child) {
+      margin-bottom: 16px;
     }
+  }
 `;
 
 function MainPage(props) {
